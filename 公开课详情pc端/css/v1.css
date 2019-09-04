@@ -1,0 +1,317 @@
+#detail_html .v1_star_icon {
+  background: url("../image/star.png") no-repeat 0 6px;
+  padding-left: 2.2rem;
+}
+#detail_html .kczy {
+  font-family: "微软雅黑";
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fa9927;
+}
+#detail_html .kczy img {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: none;
+}
+#detail_html .v1_name_blue {
+  font-family: "微软雅黑";
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #555555;
+}
+#detail_html .v1_name_blue span {
+  font-size: 1.5rem;
+  color: #ff7a32;
+}
+#detail_html .v1_introduce {
+  font-family: "微软雅黑";
+  font-size: 1.5rem;
+  color: #666666;
+}
+#detail_html .v1_introduce span {
+  color: #ff7a32;
+}
+#detail_html .v1_model {
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+#detail_html .v1_model span {
+  font-family: "微软雅黑";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555555;
+}
+#detail_html .v1_img_center {
+  background-color: #fff;
+  text-align: center;
+}
+#detail_html .v1_model_color {
+  background-color: #fff;
+}
+#detail_html .v1_distance_padding {
+  padding-bottom: 1rem;
+  background-color: #FFF;
+}
+#detail_html .v1_distance_padding img {
+  display: inline-block;
+  width: 12rem;
+  height: 12rem;
+}
+#detail_html .v1_simple_info {
+  min-height: 12rem;
+}
+#detail_html .v1_simple_info li {
+  font-family: "微软雅黑";
+  font-size: 1.5rem;
+  color: #555555;
+  line-height: 2rem;
+}
+#detail_html .v1_simple_info span {
+  font-family: "微软雅黑";
+  font-size: 2.2rem;
+  color: #ff7a32;
+}
+#detail_html .v1_simple_info img {
+  display: inline-block;
+  width: 10rem;
+  height: 5rem;
+}
+#detail_html .v1_bg_teacher {
+  height: 6rem;
+  line-height: 5rem;
+  font-family: "微软雅黑";
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 0 1.5rem;
+}
+#detail_html .v1_bg_feicaian {
+  background-color: #fc6e51;
+}
+#detail_html .v1_bg_feicaian span {
+  display: inline-block;
+  font-size: 4.5rem;
+  color: #e9573f;
+}
+#detail_html .v1_bg_xiaoge {
+  background-color: #f6bb42;
+}
+#detail_html .v1_bg_xiaoge span {
+  display: inline-block;
+  font-size: 4.5rem;
+  color: #e79d06;
+}
+#detail_html .v1_bg_xiaoyi {
+  background-color: #4fc1e9;
+}
+#detail_html .v1_bg_xiaoyi span {
+  display: inline-block;
+  font-size: 4.5rem;
+  color: #3bafda;
+}
+#detail_html .v1_resolve_p {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #666666;
+  text-align: center;
+}
+#detail_html .v1_resolve_p p {
+  display: inline-block;
+  min-width: 100%;
+  text-align: left;
+}
+#detail_html .v1_resolve_p img {
+  display: inline-block;
+  width: 12rem;
+  height: 12rem;
+}
+#detail_html .v1_promise_bottom {
+  margin-bottom: 5rem;
+}
+#detail_html .v1_hide_study {
+  display: none;
+}
+#detail_html .v1_img_feicaian {
+  text-align: center;
+}
+#detail_html .v1_img_feicaian img {
+  display: inline-block;
+  width: 20rem;
+}
+#detail_html .v1_think_fr {
+  float: right;
+}
+#detail_html .v1_position {
+  border-radius: 8px;
+  margin: auto;
+  overflow: hidden;
+}
+#detail_html .v1_same_style {
+  line-height: 55px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#detail_html .v1_shdx_icon {
+  background: url("../image/point_g.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #37bc9b;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_pymb_icon {
+  background: url("../image/point_g2.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #8cc152;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_kczy_icon {
+  background: url("../image/point_o.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #fa9927;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_bzr_icon {
+  background: url("../image/point_g.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #37bc9b;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_xgyc_icon {
+  background: url("../image/point_b.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #4fc1e9;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_sklc_icon {
+  background: url("../image/point_g2.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #8cc152;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_wt_icon {
+  background: url("../image/point_r.png") no-repeat 0 center;
+  background-size: 2.2rem 2.2rem;
+  color: #fc6e51;
+  padding-left: 2.4rem;
+}
+#detail_html .v1_jh_draw {
+  width: 12.2rem;
+  height: 13.5rem;
+  background: url("../image/bg_qp1.png") no-repeat center center;
+  position: relative;
+}
+#detail_html .v1_jh_center {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  top: -12px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding-left: 0;
+}
+#detail_html .v1_jh_center li {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+#detail_html .v1_explain {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+#detail_html .v1_sj_icon img,
+#detail_html .v1_qj_icon img,
+#detail_html .v1_hj_icon img,
+#detail_html .v1_cj_icon img,
+#detail_html .v1_lexue_icon img {
+  width: 3rem;
+  height: 3rem;
+}
+#detail_html .v1_sj_icon span,
+#detail_html .v1_qj_icon span,
+#detail_html .v1_hj_icon span,
+#detail_html .v1_cj_icon span,
+#detail_html .v1_lexue_icon span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#detail_html .v1_school_icon img {
+  width: 2rem;
+  height: 2rem;
+}
+#detail_html .v1_school_icon span {
+  position: relative;
+  top: 4px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#detail_html .v1_school_icon td {
+  font-size: 1.5rem;
+}
+#detail_html .v1_text_left {
+  text-align: left;
+  font-size: 1.5rem;
+}
+#detail_html .v1_text_left .v1_gh_content {
+  width: 14rem;
+  white-space: pre-wrap;
+  margin: 0 auto;
+  color: #ff7a32;
+  padding: 1rem 0px;
+}
+#detail_html .my-table {
+  border: none;
+}
+#detail_html .my-table thead th {
+  border-top: 1px solid #ddd!important;
+}
+#detail_html .my-table tr th:last-child,
+#detail_html .my-table tr td:last-child {
+  border-right: 1px solid #ddd;
+}
+#detail_html .my-table tbody tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+.v1-ts-wrap .v1_explain span {
+  color: #ff7a32;
+}
+@media only screen and (max-width: 640px) {
+  .v1-ts .v1-ts-wrap:last-child {
+    float: left;
+    min-height: 35rem;
+  }
+  .v1-ts-wrap {
+    min-height: 48rem;
+  }
+  .v1-ts-wrap .v1_explain span {
+    color: #ff7a32;
+  }
+}
+
+#pc_course_table{
+  background-color:#FFFFFF;
+  border:1px solid #E5E5E5;
+  border-collapse: collapse;
+}
+#pc_course_table p{margin:0px;}
+#pc_course_table tr{
+  white-space: 0;
+}
+#pc_course_table thead tr{height: 44px;line-height: 44px;}
+#pc_course_table thead tr th{
+  font-family: "PingFang-SC-Heavy";
+  font-size:12px;
+  color:#999999;
+  vertical-align: middle;
+}
+#pc_course_table tbody td{
+  font-family: "PingFang-SC-Medium";
+  font-size: 11px;
+  color:#333333;
+  line-height: 20px;
+}
+.pc_table_active{
+  background-color: #F8F8F8;
+}

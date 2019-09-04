@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>移动端课程卡激活</title>
+    <link rel="stylesheet" href="./mb_card.css">
+
+</head>
+<body>
+    <div id="mbCardWrap">
+        <ul class="mbTabCut">
+            <li class="cutActive">绑定课程卡</li>
+            <li>
+                激活课程卡
+                <img src="public/images/register/kcard_active/mb_new.png" class="newImg" alt="new">
+            </li>
+        </ul>
+        <!-- 绑定课程卡 start -->
+        <section class="mbBangCard">
+            <div class="accountInfo">
+                <span>账号信息:<em>{$space['student']['stu_name']} {$space['student']['stu_phone']}</em></span>
+            </div>
+            <p class="warn"></p>
+            <input type="text" placeholder="请输入课程卡密码"  id="cardPassWord">
+            <button class="sureBangBtn">确认绑定</button>
+            <div class="imgExplain">
+                <img src="public/images/register/kcard_active/cardInfo.png" alt="图片说明">
+            </div>
+            <div class="comQuestion">
+                <h2>乐学一百课程卡激活使用说明</h2>
+                <div class="quesContent">
+                    <h4>1、如何绑定与激活课程卡？</h4>
+                    <p>课程卡激活分为绑定和激活两步：</p>
+                    <p> 
+                        (1)绑定是将卡密码与学生账号关联，把实物课程卡转为电子课程卡。
+                        课程卡密码仅一次有效，不能重复绑定，建议您将所有课程卡一次性完成绑定，以避免卡片丢失； 
+                    </p>
+                    <p>
+                        (2)完成绑定后，请您在激活课程卡时一次性完成学期选择，不要漏选，如：三年课程选择6个学期。 
+                            中考总复习、高中预备级、初中预备级等专题课程卡时间另算，建议参考如下时间激活： 中考总复习为综合复习内容，有效期为1年，建议在初二升初三的暑假激活； 高中预备级为高一预习内容，有效期为6个月，建议在中考结束后激活； 初中预备级为初一预习内容，有效期为6个月，建议在小升初考试结束后激活。
+                    </p>
+                    <h4>2、如何选择教材版本?</h4>
+                    <p>
+                        教材版本与孩子教材封面下方的出版社名称保持一致即可，同步与培优课程请选择相同的教材版本； 若后期孩子所在学校更换教材版本，您可以联系客服老师协助您进行调整，不必担心。 
+                    </p>
+                    <h4>3、为什么绑定课程卡时提示密码错误？</h4>
+                    <p>
+                        提示课程卡密码错误提示，说明输入的密码至少有一位是不正确的。请注意：密码中仅前两位是字母符号，其他均为数字符号。 
+                    </p>
+                    <h4>4、账号密码是否可跨设备使用？</h4>
+                    <p>
+                        完成注册并激活课程卡后，学习账号下的课程内容可在手机、平板、电脑等设备同步使用，输入正确的账号、密码即可跨设备学习，学习内容自动同步。完成注册后，请务必记住注册手机号或学号。 
+                    </p>
+                    <h4>若以上说明仍不能有效解决您遇到的问题，请拨打官方客服：400-670-7210</h4>
+                </div>    
+            </div>
+        </section>
+        <!-- 绑定课程卡 end -->
+
+        <!-- 激活课程卡 start -->
+        <section class="mbActiveCard">
+            <div class="noActiveGroup">
+                <h4>未激活</h4>
+                <div class="noActiveInner">
+                </div>
+            </div>
+            <div class="activedGroup">
+                <h4>已激活</h4>
+                <div class="activeInner">
+                </div>
+            </div>
+        </section>
+        <!-- 激活课程卡 end -->
+
+        <!-- 还没有购买课程卡 start -->
+        <section class="noBuyCard">
+            <img src="public/images/register/kcard_active/empty.png" alt="还没购买课程卡">
+            <span>暂无课程卡~</span>
+        </section>
+        <!-- 还没有购买课程卡 end -->
+
+        <!-- 确认激活课程卡 start -->
+        <section class="sureActivePage">
+            <div class="classCardInner">
+                <!-- <img src="public/images/register/card1.png" alt="课程卡">
+                <span>高级课程卡(两年)</span> -->
+            </div>
+            <div class="tbClassVersion">
+            </div>
+            <div class="activeGroup">
+                <a href="javascript:;">以后再说</a>
+                <a href="javascript:;">确认激活</a>
+            </div>
+        </section>
+        <!-- 确认激活课程卡 end -->
+
+        <!-- 弹窗 确认选择课程弹窗  start-->
+        <section class="diaWinClass">
+            <div class="layer"></div>
+            <div class="sureSeleClassWrap">
+                <h2>请您再次确认选择的课程</h2>
+                <div class="showSureClassList"></div>
+                <div class="selTextTip">确定不再开通更多内容吗?您的课程卡还可以选择更多内容哦!</div>
+                <div class="sureClassBtn">
+                    <a href="javascript:;">重新选择</a>
+                    <a href="javascript:;">确定</a>
+                </div>
+            </div>
+        </section>
+        <!-- 弹窗 确认选择课程弹窗 end -->
+
+        <!-- 提示没选版本和学期 start -->
+        <section class="noSeleVerWrap">
+            <div class="layer"></div>
+            <div class="noSeleVerInner">
+                <div class="tipVersion">
+                    <span>提示</span>
+                </div>
+                <p class="tipContent">请选择教材版本和学期</p>
+                <div class="selecVerBtn">
+                    <a href="javascript:;" class="sureVerBtn">确定</a>
+                </div>
+            </div>
+        </section>
+        <!-- 提示没选版本和学期 end -->
+    </div>
+</body>
+<script src='./rem.js'></script>
+<script src='./jquery-1.11.1.min.js'></script>
+<script src='./mk_mbcard.js'></script>
+</html>

@@ -1,0 +1,697 @@
+html , body ,header,
+section,
+footer,
+nav,
+article,
+aside,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+strong,
+em,
+i,
+span,
+image,
+a,
+input{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.ellip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ul , ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html,body {
+    background-color: #F3F3F3 !important;
+}
+#mbCardWrap {
+    font-family: "font-family:PingFangSC-Medium;";
+    font-size: 0.32rem;
+    padding: 0.3rem 0 0.6rem;
+}
+.mbTabCut {
+    display: flex;
+    flex-direction: row;
+    width: 6.8rem;
+    height: 0.8rem;
+    margin: 0  auto;
+    border-radius: 0.4rem;
+    border: 1px solid #333333;
+    overflow: hidden;
+}
+.mbTabCut li {
+    font-size: 0.32rem;
+    flex: 1;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+}
+.mbTabCut li.cutActive {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.mbTabCut > li:nth-child(2) {
+    position: relative;
+}
+.mbTabCut .newImg {
+    display: none;
+    position: absolute;
+    top: 0.08rem;
+    right: 0.4rem;
+    width: 0.52rem;
+    height: 0.36rem;
+}
+/* 绑定课程卡  start */
+.mbBangCard {
+    /* display: none; */
+    margin-top: 0.4rem;
+}
+.accountInfo {
+    padding: 0 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.accountInfo > span {
+    display: inline-block;
+    line-height: 0.6rem;
+    font-size: 0.32rem;
+    color: #999999;
+}
+.accountInfo > span>em {
+    font-style: normal;
+    color: #333333;
+    margin-left: 8px;
+}
+.warn {
+    padding: 0 0.3rem;
+    line-height: 0.4rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.28rem;
+    color: #FF7A32;
+}
+#cardPassWord {
+    display: flex;
+    width: 100%;
+    height: 1.2rem;
+    background-color: #FFFFFF;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 0.32rem;
+    -webkit-appearance: none;  /*  去掉苹果手机显示的阴影线*/
+}
+input::-webkit-input-placeholder {
+    font-size: 0.32rem;
+    color: #999999;
+}
+.sureBangBtn {
+    display: block;
+    width: 6.7rem;
+    height: 0.92rem;
+    background-color: #cccccc;
+    border-radius: 0.16rem;
+    outline: none;
+    border: none;
+    margin: 0.52rem auto 0.6rem;
+    color: #FFFFFF;
+    font-size: 0.34rem;
+}
+.sureBangBtnActive {
+    background-color: #FF7A32;
+}
+.imgExplain {
+    width: 100%;
+}
+.imgExplain img {
+    display: block;
+    width: 6.90rem;
+    height: 3.8rem;
+    margin: 0 auto;
+}
+.comQuestion {
+    margin-top: 0.8rem;
+    padding: 0 0.3rem;
+    text-align: justify;
+}
+.comQuestion > h2 {
+    font-size: 0.32rem;
+    font-weight: 0.5rem;
+    color: #333333;
+    line-height: 0.44rem;
+}
+.quesContent {
+    margin-top: 0.3rem;
+    line-height: 0.56rem;
+}
+.quesContent > p {
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #666666;
+    /* text-align: justify; */
+    word-wrap: break-word;
+}
+.quesContent > h4 {
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #333333;
+    word-wrap: break-word;
+}
+/* 绑定课程卡 end */
+
+/* 激活课程卡 start */
+.mbActiveCard {
+    display: none;
+    margin-top: 0.3rem;
+}
+.noActiveGroup,.activedGroup {
+    background-color: #FFFFFF;
+    padding: 0.3rem 0.3rem 0.4rem;
+}
+.noActiveGroup > h4,.activedGroup > h4 {
+    font-size: 0.28rem;
+    color: #333333;
+    line-height: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+.noCardPart,.activeCardPart{
+    margin-bottom: 0.4rem;
+}
+.activeCardInner {
+    margin-bottom: 0.2rem;
+}
+.noImgWrap,.imgWrap {
+    float: left;
+    position: relative;
+    width: 3.28rem;
+    height: 2.06rem;
+    margin-right: 0.2rem;
+}
+.imgClass {
+    display: inline-block;
+    width: 3.28rem;
+    height: 2.06rem;
+}
+.noActiveNew {
+    position: absolute;
+    right: -0.16rem;
+    top: -0.20rem;
+    width: 0.48rem;
+    height: 0.32rem;
+}
+.noCardConPart,.cardConPart {
+    width: 3.42rem;
+    float: left;
+}
+.noTitlePart,.titlePart {
+    line-height: 0.48rem;
+}
+.titlePart .time {
+    font-size: 0.2rem;
+    color: #999999;
+}
+.noTitlePart > h2,.titlePart > h2{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #333333;
+}
+.noTitlePart > h2 > span,.titlePart > h2 > span {
+    margin-left: 4px;
+}
+.noTitlePart > p,.titlePart > p {
+    font-size: 0.24rem;
+    color: #333333;
+}
+.titlePart > p.passTime {
+    color: #FF5539;
+}
+.noCardConPart > button {
+    display: block;
+    font-size: 0.28rem;
+    font-weight: bold;
+    margin-top: 0.1rem;
+    width: 1.8rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    text-align: center;
+    background-color: #FF7A32;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 0.26rem;
+    margin-left: auto;
+}
+.activedGroup {
+   margin-top: 0.3rem; 
+}
+.gradeContent {
+    display: none;
+    line-height: 0.4rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+.gradeContent > h4 {
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #333333;
+}
+.gradeContent > p {
+    font-size: 0.24rem;
+    color: #666666;
+    line-height: 0.48rem;
+    text-align: justify;
+}
+.watchGradeWrap {
+    text-align: center;
+}
+.watchGradeWrap > span {
+    display: inline-block;
+    padding-right: 0.36rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #FF7A32;
+    line-height: 0.4rem;
+    background: url("../../images/register/kcard_active/mb_down.png") no-repeat right center;
+    background-size: 0.26rem 0.14rem;
+}
+/* 激活课程卡  end */
+
+/* 还没购买课程卡 start */
+.noBuyCard {
+    display: none;
+    padding: 2.98rem 0 5.34rem;
+    text-align: center;
+}
+.noBuyCard > img {
+    display: block;
+    width: 1.60rem;
+    height: 1.60rem;
+    margin: 0 auto;
+}
+.noBuyCard > span {
+    display: inline-block;
+    font-size: 0.32rem;
+    font-weight: 0.5rem;
+    line-height: 0.44rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+/* 还没购买课程卡 end */
+
+
+/* 确认激活页面 start */
+.sureActivePage {
+    display: none;
+    margin-top: 0.6rem;
+    padding-bottom: 1rem;
+}
+.classCardInner {
+    text-align: center;
+}
+.classCardInner > img {
+    display: block;
+    width: 3.28rem;
+    height: 2.06rem;
+    margin: 0 auto;
+}
+.classCardInner > span {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-family: "PingFang-SC-Bold";
+    font-size: 0.32rem;
+    font-weight: bold;
+    line-height: 0.48rem;
+}
+.tbClassVersion{
+    margin-top: 0.4rem;
+}
+.classVersionInner {
+    margin-bottom : 0.32rem;
+    background-color: #FFFFFF;
+}
+.tbVersionInner{
+    position: relative;
+    height: auto;
+}
+.tbVersionList{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    padding: 0.26rem 0.3rem;
+}
+.tbVersionInner > span{
+    display: inline-block;
+    font-weight: 0.4rem;
+}
+.tbVersionList  .version{
+    color: #333333;
+    width: 6.5rem;
+    font-size: 0.32rem;
+}
+.tbVersionList .selectText{
+    flex: 1;
+    width: 0.16rem;
+    height: 0.26rem;
+    background: url("../../images/register/kcard_active/mb_right.png") no-repeat right center;
+    background-size: 0.16rem 0.26rem;
+}
+.tbClassList{
+    display: none;
+    background-color: #F3F3F3;
+    padding: 0.3rem 0 0.6rem;
+}
+.tbClassList .actTermText{
+    padding: 0 0.3rem;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: #333333;
+}
+.tbClassList .actTipText {
+    font-style: normal;
+    color: #FF7A32;
+}
+.classListInner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 5.9rem;
+    margin: 0.5rem auto 0;
+}
+.classListInner::after {    /**解决flex布局最后一行不对齐问题 */
+    content: "";
+    width: 1.5rem;
+}
+.classListPart {
+    display: flex;
+    width: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.52rem;
+}
+.coverInner {
+    position: relative;
+    width: 1.5rem;
+    height: 2.14rem;
+}
+.coverInner img:first-child {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 2.14rem;
+}
+.coverInner img:nth-child(2) {
+    position: absolute;
+    top: -0.2rem;
+    right: -0.18rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.titleText {
+    margin-top: 6px;
+    font-size: 0.24rem;
+    line-height: 0.34rem;
+}
+.titleText > h4 {
+    color: #333333;
+}
+.titleText > span {
+    display: inline-block;
+    color: #FF7A32;
+    font-size: 0.22rem;
+    transform: scale(0.84);
+}
+.activeGroup {
+    position: fixed;
+    bottom: 0;
+    height: 1rem;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #e5e5e5;
+}
+.activeGroup > a {
+    display: inline-block;
+    font-size: 0.32rem;
+    width: 50%;
+    text-align: center;
+}
+.activeGroup a:first-child {
+    color: #FF7A32;
+}
+.activeGroup a:nth-child(2) {
+    background:linear-gradient(45deg,rgba(255,178,97,1) 0%,rgba(255,122,50,1) 100%);
+    color: #FFFFFF;
+}
+.versionListWrap {
+    display: none;
+    position: absolute;
+    height: 5.8rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 1;
+    overflow: auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+.versionListWrap ul {
+    padding: 0 0.3rem;
+    overflow: auto;
+}
+.versionListWrap ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 1rem;
+    line-height: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.versionListWrap p {
+    width: 6.4rem;
+    height: 1rem;
+    text-align: left;
+}
+.versionListWrap img {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: middle;
+}
+/* 确认激活页面 end */
+
+
+/* 弹窗  start */
+.diaWinClass {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.layer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    margin: auto;
+    background-color: #000000;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+.sureSeleClassWrap {
+    font-family: "PingFang-SC-Bold";
+    font-size: 0.32rem;
+    width: 6rem;
+    padding-top: 0.4rem;
+    border-radius: 0.16rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50% , -50%);
+    background-color: #FFFFFF;
+}
+.sureSeleClassWrap > h2 {
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+.showSureClassList {
+    margin-top: 0.3rem;
+    line-height: 0.6rem;
+    padding: 0 0.4rem;
+}
+.showSureClassList > h2 {
+    font-size: 0.3rem;
+    color: #333333;
+}
+.showSureClassList > p {
+    font-size: 0.3rem;
+    color: #FF7A32;
+}
+.selTextTip {
+    font-size: 0.3rem;
+    color: #FF7A32;
+    padding: 0 0.4rem;
+    margin:0.5rem 0;
+}
+.sureClassBtn {
+    margin-top: 0.2rem;
+    height: 1rem;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 0;
+    border-top: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+.sureClassBtn >a {
+    font-size: 0.32rem;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.sureClassBtn > a:first-child{
+    width: 50%;
+    color: #999999;
+    border-right: 1px solid #e5e5e5;
+}
+.sureClassBtn > a:nth-child(2){
+    color: #FF7A32;
+}
+/* 弹窗 end */
+
+
+
+/* 没有选择版本提示窗  start */
+
+.noSeleVerWrap {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.noSeleVerInner {
+    font-family: "PingFang-SC-Bold";
+    font-size: 0.32rem;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0.16rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50% , -50%);
+    background-color: #FFFFFF;  
+    overflow: hidden;
+}
+.tipVersion {
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 0.4rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #333333;
+}
+.closeXX {
+    display: flex;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url("../../images/register/kcard_active/close.png") no-repeat center center;
+    background-size: 0.3rem 0.3rem;
+    cursor: pointer;
+    border: 0.4rem transparent solid;
+    position: relative;
+    right: -0.4rem;
+}
+.tipContent {
+    font-size: 0.32rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.selecVerBtn {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.32rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-top: 1px solid #E5E5E5;
+}
+.selecVerBtn a {
+    display: block;
+    border-radius: 0.04rem;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #FF7A32;
+    text-decoration: none;
+}
+
+/* 没有选择版本提示窗 end */
+
+/* 已激活的学期点击弹出窗css  start */
+.actTipWin {
+    display: none;
+    width: 3.92rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    box-shadow:0px 0px 40px 0px rgba(0,0,0,0.3);
+    border-radius:0.44rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}    
+.actTipWin > span {
+    display: inline-block;
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.32rem;
+    color: #FFFFFF;
+}
+
+/* 已激活的学期点击弹出窗css  end */

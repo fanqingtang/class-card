@@ -1,0 +1,619 @@
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+img,
+em,
+i,
+ol,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 14px;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img {
+    display: inline-block;
+    border: none;
+}
+
+a {
+    color: #666666;
+    text-decoration: none
+}
+
+ul,
+ol li {
+    list-style-type: none;
+}
+
+.am-container {
+    max-width: 58.5rem !important;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.pc_english_wrappers {
+    font-family: "Mirocsoft YaHei", Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin-bottom: 5rem;
+}
+
+.pc_english_wrappers #pc_header {
+    display: none;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+
+.pc_english_wrappers #pc_header .pc_header_bg {
+    background: url(../image/bg.png) repeat;
+    padding: 0.7rem 1.2rem;
+}
+
+.pc_english_wrappers #pc_header h1 {
+    font-family: "PingFang-SC-Heavy";
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+.pc_english_wrappers #pc_header span {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.pc_english_wrappers #pc_header .pc_header_price {
+    text-align: right;
+    font-family: "PingFang SC";
+}
+
+.pc_english_wrappers #pc_header .pc_header_price em {
+    color: #FCFF25;
+    font-size: 1.8rem;
+    vertical-align: -2px;
+    line-height: 0px;
+}
+
+.pc_english_wrappers .pc_english_content {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_list_left {
+    position: absolute;
+    top: 0;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction {
+    width: 190px;
+    background-color: #FFF7F3;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction li {
+    height: 60px;
+    line-height: 58px;
+    border-bottom: 1px solid #FFCDB2;
+    cursor: pointer;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction a {
+    display: inline-block;
+    width: 190px;
+    height: 60px;
+    outline: none;
+    color: #FF7A32;
+    text-decoration: none;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction .pc_list_first {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction .pc_list_end {
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction .pc_active_bg {
+    background-color: #FF7A32;
+    font-weight: bold;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction .pc_active_bg a {
+    color: #FFFFFF;
+}
+
+.pc_english_wrappers .pc_english_content .pc_list_instroduction .pc_active_bg:after {
+    content: "";
+    position: absolute;
+    margin-top: 23px;
+    width: 8px;
+    height: 14px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FF7A32;
+}
+
+.pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_img {
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+}
+
+.pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text {
+    line-height: 1.4rem;
+    font-family: "PingFang SC";
+}
+
+.pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text h1 {
+    font-size: 1.3rem;
+    color: #333333;
+}
+
+.pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text span {
+    font-size: 0.9rem;
+    color: #888888;
+    margin-left: 0.7rem;
+    font-weight: normal;
+}
+
+.pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text p {
+    font-size: 0.8rem;
+    color: #333333;
+    line-height: 2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis {
+    margin: 2.5rem 0rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_student,
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_study_goal {
+    width: 48%;
+    min-height: 23rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 0.2rem;
+    box-shadow: 0px 0px 0.5rem rgba(255, 122, 50, 0.16);
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_student h2,
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_study_goal h2 {
+    font-family: "PingFang-SC-Medium";
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    margin-bottom: 2.4rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_student p,
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_study_goal p {
+    font-family: "PingFang SC";
+    font-size: 0.8rem;
+    line-height: 2.8rem;
+    color: #333333;
+    padding-left: 1.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_margin {
+    margin-right: 4%;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_student_img {
+    display: inline-block;
+    width: 2.6rem;
+    height: 2.6rem;
+    vertical-align: -1rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_bg {
+    background: url(../image/icon_e0.png) no-repeat 0rem 1rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_study_bg {
+    background: url(../image/icon_e1.png) no-repeat 0rem 1rem;
+}
+
+.pc_english_wrappers .pc_english_content .pc_course_same {
+    font-family: "PingFang-SC-Heavy";
+    font-size: 1.3rem;
+    color: #FF7A32;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_special {
+    margin-bottom: 2.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_special p {
+    font-family: "PingFang SC";
+    font-size: 0.8rem;
+    color: #333333;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_special .pc_course_end {
+    font-family: "NotoSansHans-Regular";
+    font-size: 0.8rem;
+    color: #FF7A32;
+    margin-bottom: 0rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_special .pc_course_img {
+    display: block;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    background: #ffffff;
+    box-shadow: 0px 0px 0.5rem rgba(255, 122, 50, 0.16);
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_syllabus {
+    margin-bottom: 1.7rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_syllabus .pc_course_table {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_syllabus .pc_course_table th {
+    font-family: "PingFang-SC-Heavy";
+    font-size: 0.9rem;
+    color: #999999;
+    border-bottom: none;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_syllabus .pc_course_table tbody {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.8rem;
+    color: #333333;
+}
+#pc_course_syllabus .pc_course_table tbody>tr:nth-child(even){
+    background-color: #F8F8F8;
+}
+
+.pc_english_wrappers .pc_english_content #pc_course_syllabus .pc_course_table td,
+.pc_english_wrappers .pc_english_content #pc_course_syllabus .pc_course_table p {
+    font-family: "PingFang SC";
+    font-size: 0.8rem;
+    color: #333333;
+}
+
+.pc_english_wrappers .pc_english_content #pc_teacher_server {
+    margin-bottom: 2.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_teacher_server .pc_server_title {
+    font-family: "PingFang-SC-Heavy";
+    font-size: 1.3rem;
+    color: #FF7A32;
+    text-align: center;
+    font-weight: normal;
+}
+
+.pc_english_wrappers .pc_english_content #pc_teacher_server span {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.9rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_teacher_server .pc_server_content {
+    background-color: #FDFBFA;
+    border: 1px solid #FFECE1;
+    padding: 1.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_teacher_server .pc_server_content p {
+    font-family: "PingFang SC";
+    font-size: 0.8rem;
+    color: #333333;
+    line-height: 2.8rem;
+    padding-left: 1.9rem;
+    background: url(../image/icon_e2.png) no-repeat 0rem 1rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve {
+    margin-bottom: 2.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_box {
+    border-radius: 0.2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_teacher {
+    font-family: "PingFang-SC-Bold";
+    font-size: 1.1rem;
+    padding: 1rem;
+    background-color: #FF795E;
+    border-radius: 4px 4px 0px 0px;
+    color: #FFFFFF;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_teacher span {
+    font-family: "MicrosoftYaHei";
+    font-size: 2rem;
+    color: rgba(1, 1, 1, 0.2);
+    line-height: 0px;
+    vertical-align: -0.3rem;
+    margin-right: 0.4rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_method {
+    background: #F8F8F8;
+    border-radius: 0px 0px 0.2rem 0.2rem;
+    padding: 1.5rem 1rem 2rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_method p {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.8rem;
+    color: #333333;
+    margin-bottom: 1.5rem;
+    line-height: 1.4rem;
+    min-height: 5.6rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_rl_method img {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_xs_teacher {
+    background-color: #F6BB42;
+}
+
+.pc_english_wrappers .pc_english_content #pc_problem_resolve .pc_xy_teacher {
+    background-color: #A0D468;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_process {
+    margin-bottom: 2.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_process .pc_class_next {
+    text-align: center;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_process .pc_class_next img {
+    display: inline-block;
+    width: 0.9rem;
+    height: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_process .pc_line_report {
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.8rem;
+    background-color: #FAFDFA;
+    color: #6EB63A;
+    border: 1px solid #D1F3D1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    position: relative;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_process .pc_class_number {
+    font-family: "SanFranciscoText-BoldItalic";
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #6EB63A;
+    font-style: italic;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_knowe_content {
+    background-color: #FFFFFF;
+    box-shadow: 0rem 0rem 0.5rem rgba(255, 122, 50, 0.16);
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_knowe_content p {
+    font-family: "PingFang SC";
+    font-size: 0.8rem;
+    color: #333333;
+    line-height: 2.8rem;
+    padding-left: 1.9rem;
+    background: url(../image/icon_e3.png) no-repeat 0rem 1rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_discontent_promise {
+    background-color: #FDFBFA;
+    border: 1px solid #FFECE1;
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_discontent_promise h1 {
+    font-family: "PingFang-SC-Medium";
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_discontent_promise .pc_semicolon_img {
+    display: inline-block;
+    vertical-align: -0.4rem;
+    margin-right: 0.5rem;
+}
+
+.pc_english_wrappers .pc_english_content #pc_class_knowe .pc_discontent_promise p {
+    display: inline-block;
+    text-align: left;
+    font-family: "PingFang-SC-Medium";
+    font-size: 0.8rem;
+    color: #FF5539;
+}
+
+/* 新加内容班主任css */
+
+#pc_thacher_instroduction .pc_teacher_info {
+    height: 8rem;
+    margin-bottom: 43px;
+}
+
+#pc_thacher_instroduction .pc_head_master{
+  height: 10rem;
+  background-color: #FDFBFA;
+  border:1px solid #FFECE1;
+}
+#pc_thacher_instroduction .pc_head_master .pc_master_ul{
+  padding:1.75rem 1rem;
+}
+#pc_thacher_instroduction .pc_master_ul li{
+  font-family: "PingFang-SC-Medium";
+  font-size:16px;
+  color:#333333;
+}
+
+#pc_thacher_instroduction .pc_master_avatar{
+  display: inline-block;
+  width:6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+}
+#pc_thacher_instroduction .pc_master_ul .pc_master_content{
+  width:7.2rem;
+  height: 2.5rem;
+}
+#pc_thacher_instroduction .pc_master_content strong{
+  font-size: 20px;
+}
+#pc_thacher_instroduction .pc_master_content span{
+  color:#888888;
+}
+#pc_thacher_instroduction .pc_master_group{
+  display: inline-block;
+  height: 2.5rem;
+  width: 5rem;
+  margin-top:28px;
+}
+#pc_thacher_instroduction .pc_master_code{
+  width:6.5rem;
+  height: 6.5rem;
+}
+#pc_thacher_instroduction .pc_master_code{
+  display: inline-block;
+  width:6.5rem;
+  height: 6.5rem;
+}
+#pc_thacher_instroduction .pc_master_explain{
+  line-height: 1.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 920px) {
+    .am-container {
+        max-width: 58.5rem !important;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .pc_english_wrappers {
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    .pc_english_wrappers #pc_header {
+        display: none;
+        padding: 0rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+    .pc_english_wrappers #pc_header .pc_header_bg {
+        background: url(../image/bg.png) repeat;
+        padding: 0.6rem 0rem;
+    }
+    .pc_english_wrappers #pc_header h1 {
+        font-family: "PingFang-SC-Heavy";
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+    .pc_english_wrappers #pc_header span {
+        font-family: "PingFang-SC-Medium";
+        font-size: 0.6rem;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_img {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: #F3F3F3;
+    }
+    .pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text {
+        line-height: 1.4rem;
+        font-family: "PingFang SC";
+    }
+    .pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text h1 {
+        font-size: 1.2rem;
+        color: #333333;
+    }
+    .pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text span {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: #888888;
+        margin-left: 0.7rem;
+    }
+    .pc_english_wrappers .pc_english_content #pc_thacher_instroduction .pc_teacher_text p {
+        font-size: 0.8rem;
+        color: #333333;
+        line-height: 2rem;
+    }
+    .pc_english_wrappers .pc_english_content #pc_course_synopsis {
+        margin: 2.5rem 0rem;
+    }
+    .pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_student,
+    .pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_study_goal {
+        width: 100%;
+        min-height: 21rem;
+        padding: 1.5rem;
+        background: #ffffff;
+        border-radius: 0.2rem;
+        box-shadow: 0rem 0rem 0.5rem rgba(255, 122, 50, 0.16);
+    }
+    .pc_english_wrappers .pc_english_content #pc_course_synopsis .pc_suit_margin {
+        margin-right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+}
